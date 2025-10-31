@@ -1,63 +1,45 @@
-🗂️ Mini File Search Utility
+🗂️ Mini File Search Utility (Bash)
 
-A simple Linux-based Bash tool to search files by name, extension, or size.
+A lightweight and efficient Bash tool to search files by name, extension, or size.
 
-📖 Overview
+🧭 Overview
 
-The Mini File Search Utility is a terminal-based script built in Bash that helps users locate files quickly and efficiently.
-It supports multiple search criteria — making it a lightweight alternative to GUI-based search tools.
-This script is perfect for students, system administrators, or Linux enthusiasts who want to understand shell scripting, file handling, and automation.
+The Mini File Search Utility is a terminal-based script written in Bash that allows users to locate files within a specified directory using flexible search options.
+It supports searching by file name, extension, or size range, offering a clean and colorized output for better readability.
 
-✨ Features
+This project demonstrates Linux shell scripting, file system traversal, and user input handling, making it an ideal mini-project for both beginners and intermediate programmers.
 
-🔍 Search by File Name: Finds files containing specific keywords.
-
-📄 Search by File Extension: Lists all files with a chosen extension (e.g., .txt, .sh, .cpp).
-
-📏 Search by File Size: Filters files between minimum and maximum sizes.
-
-📁 Recursive Directory Traversal: Automatically searches through all subdirectories.
-
-⚙️ No External Dependencies: Works on any Linux system with bash and find.
-
-🧩 Clear Console Output: Displays full file paths and file sizes.
+✨ Key Features
+Feature	Description
+🔍 Search by Name	Find files containing a specific keyword in their name.
+📄 Search by Extension	Locate files with a given extension (e.g., .txt, .cpp).
+📏 Search by Size Range	Filter files between minimum and maximum byte limits.
+📁 Recursive Directory Traversal	Searches all subdirectories automatically.
+⚙️ Lightweight & Fast	Uses the find command for quick, native file scanning.
+🎨 Colorized Output	Displays clean, color-coded results for readability.
+💻 Fully Portable	Works on all Linux and macOS systems (no dependencies).
 
 ⚙️ How It Works
 
-The script takes a directory path as input.
-
-You select a search mode:
-
-name → search files containing a keyword
-
-extension → search by file type
-
-size → search by file size range
-
-It uses the find command with filters to locate matching files.
-
-Results are displayed with absolute paths and file sizes.
+The user provides a directory path.
+The script prompts for a search mode (name, extension, or size).
+Based on the selected mode:
+It filters files using the built-in find command.
+Matches are displayed with absolute paths and file sizes.
+The output is formatted symmetrically with colors and visual dividers for professional clarity.
 
 🧠 Concepts Demonstrated
 
-Shell scripting basics (if, case, functions)
+Concept	Description
+🧩 Shell Scripting	Uses Bash control structures (case, if, functions).
+🗃️ Filesystem Commands	Traverses directories with the find utility.
+🎛️ Input Handling	Reads and validates user input from the terminal.
+🧱 Output Formatting	Uses ANSI escape codes for color and symmetry.
+🧰 Usage Instructions
 
-File system traversal with find
-
-String and pattern matching in Bash
-
-User input handling
-
-Output formatting with printf
-
-🛠️ Installation & Usage
-Requirements
-
+🔧 Requirements
 Linux / macOS terminal
-
-Bash version 4+
+Bash 4.0+ installed
 
 👨‍💻 Author
-
 Rushil Agnihotri
-Student | Developer | Linux Enthusiast

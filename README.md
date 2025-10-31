@@ -37,7 +37,8 @@ Concept	Description
 🧱 Output Formatting	Uses ANSI escape codes for color and symmetry.
 🧰 Usage Instructions
 
-🔧 Requirements
+🔧 Requirements:
+
 Linux / macOS terminal
 Bash 4.0+ installed
 

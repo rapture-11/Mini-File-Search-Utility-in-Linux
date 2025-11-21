@@ -44,3 +44,9 @@ Bash 4.0+ installed
 
 👨‍💻 Author
 Rushil Agnihotri
+
+
+Output:-
+
+![WhatsApp Image 2025-11-21 at 11 09 05_8e86a656](https://github.com/user-attachments/assets/b30c1697-2c9e-4a5d-a0c5-8348ca7dc737)
+
